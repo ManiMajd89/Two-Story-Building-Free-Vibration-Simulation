@@ -36,33 +36,6 @@ Simulate the behavior of the system over the interval \( t in [0, 10] \) using t
 
 ---
 
-## State-Space Representation
-
-The coupled second-order ODEs are converted into a system of first-order ODEs using the state vector \( Z \):
-
-\[
-Z = \begin{bmatrix}
-x_1(t) \\
-x_1'(t) \\
-x_2(t) \\
-x_2'(t)
-\end{bmatrix}, \quad
-Z' = AZ
-\]
-
-where the system matrix \( A \) is:
-
-\[
-A = \begin{bmatrix}
-0 & 1 & 0 & 0 \\
--{k1}{m1} & 0 & \frac{k_2}{m_1} & 0 \\
-0 & 0 & 0 & 1 \\
-\frac{k_2}{m_2} & 0 & -\frac{k_2}{m_2} & 0
-\end{bmatrix}
-\]
-
----
-
 ## MATLAB Implementation
 
 ### Features
