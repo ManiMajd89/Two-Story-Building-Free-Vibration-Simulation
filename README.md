@@ -6,29 +6,29 @@ This MATLAB code simulates the free vibration of a two-story building modeled wi
 
 The behavior of the two-story building is governed by the following coupled second-order differential equations:
 
-\[
-m_1 x_1'' = -k_1 x_1 - k_2 (x_1 - x_2)
-\]
-\[
-m_2 x_2'' = -k_2 (x_2 - x_1)
-\]
+\
+m1 x1'' = -k1 x1 - k2 (x1 - x2)
+\
+\
+m2 x2'' = -k2 (x2 - x1)
+\
 
 ### Parameters
 
 The physical parameters of the system are:
 
-- **Spring stiffness**: \( k_1 = k_2 = 4.66 \, \text{kN}/\text{mm} \)
-- **Mass of the first floor**: \( m_1 = 0.0917 \, \text{kN} \cdot \text{sec}^2/\text{mm} \)
-- **Mass of the second floor**: \( m_2 = 0.0765 \, \text{kN} \cdot \text{sec}^2/\text{mm} \)
+- **Spring stiffness**: \( k1 = k2 = 4.66 \, \text{kN}/\text{mm} \)
+- **Mass of the first floor**: \( m1 = 0.0917 \, \text{kN} \cdot \text{sec}^2/\text{mm} \)
+- **Mass of the second floor**: \( m2 = 0.0765 \, \text{kN} \cdot \text{sec}^2/\text{mm} \)
 
 ### Initial Conditions
 
-- \( x_1(0) = 100 \, \text{mm}, \quad x_2(0) = 50 \, \text{mm} \)
-- \( x_1'(0) = 0, \quad x_2'(0) = 0 \)
+- \( x1(0) = 100 \, \text{mm}, \quad x2(0) = 50 \, \text{mm} \)
+- \( x1'(0) = 0, \quad x2'(0) = 0 \)
 
 ### Goal
 
-Simulate the behavior of the system over the interval \( t \in [0, 10] \) using the following approaches:
+Simulate the behavior of the system over the interval \( t in [0, 10] \) using the following approaches:
 
 1. Analytical solution for the given parameters.
 2. Numerical solutions using:
