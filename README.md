@@ -17,13 +17,13 @@ m2 x2'' = -k2 (x2 - x1)
 
 The physical parameters of the system are:
 
-- **Spring stiffness**: \( k1 = k2 = 4.66 \, kN/mm)
+- **Spring stiffness**: \( k1 = k2 = 4.66 \ kN/mm)
 - **Mass of the first floor**: \( m1 = 0.0917 \)
 - **Mass of the second floor**: \( m2 = 0.0765 \)
 
 ### Initial Conditions
 
-- \( x1(0) = 100 \, \text{mm}, \quad x2(0) = 50 \, \text{mm} \)
+- \( x1(0) = 100 , \quad x2(0) = 50 \)
 - \( x1'(0) = 0, \quad x2'(0) = 0 \)
 
 ### Goal
