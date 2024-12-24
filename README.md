@@ -23,8 +23,8 @@ The physical parameters of the system are:
 
 ### Initial Conditions
 
-- \( x1(0) = 100 , x2(0) = 50 \)
-- \( x1'(0) = 0, x2'(0) = 0 \)
+- \ x1(0) = 100 , x2(0) = 50 \
+- \ x1'(0) = 0, x2'(0) = 0 \
 
 ### Goal
 
@@ -56,7 +56,7 @@ where the system matrix \( A \) is:
 \[
 A = \begin{bmatrix}
 0 & 1 & 0 & 0 \\
--\frac{k_1}{m_1} & 0 & \frac{k_2}{m_1} & 0 \\
+-{k1}{m1} & 0 & \frac{k_2}{m_1} & 0 \\
 0 & 0 & 0 & 1 \\
 \frac{k_2}{m_2} & 0 & -\frac{k_2}{m_2} & 0
 \end{bmatrix}
