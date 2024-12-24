@@ -23,8 +23,8 @@ The physical parameters of the system are:
 
 ### Initial Conditions
 
-- \( x1(0) = 100 , \quad x2(0) = 50 \)
-- \( x1'(0) = 0, \quad x2'(0) = 0 \)
+- \( x1(0) = 100 , x2(0) = 50 \)
+- \( x1'(0) = 0, x2'(0) = 0 \)
 
 ### Goal
 
