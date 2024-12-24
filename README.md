@@ -11,7 +11,7 @@ m1 x1'' = -k1 x1 - k2 (x1 - x2)
 \
 \
 m2 x2'' = -k2 (x2 - x1)
-\
+
 
 ### Parameters
 
