@@ -6,10 +6,9 @@ This MATLAB code simulates the free vibration of a two-story building modeled wi
 
 The behavior of the two-story building is governed by the following coupled second-order differential equations:
 
-\
+
 m1 x1'' = -k1 x1 - k2 (x1 - x2)
-\
-\
+
 m2 x2'' = -k2 (x2 - x1)
 
 
@@ -23,8 +22,8 @@ The physical parameters of the system are:
 
 ### Initial Conditions
 
-- \ x1(0) = 100 , x2(0) = 50 \
-- \ x1'(0) = 0, x2'(0) = 0 \
+-  x1(0) = 100 , x2(0) = 50 
+-  x1'(0) = 0, x2'(0) = 0 
 
 ### Goal
 
